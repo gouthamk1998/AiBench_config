@@ -95,7 +95,7 @@
         "description": "MobileNetV2 + SSDLite, trained on COCO. Converted to Core ML by Matthijs Hollemans",
         "task": "detection",
         "float32_size": "9.3",
-        "float32_downloadURL": "https://github.com/hollance/coreml-survival-guide/blob/master/MobileNetV2+SSDLite/ObjectDetection/ObjectDetection/MobileNetV2_SSDLite.mlmodel?raw=true",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/MobileNetV2_SSDLite.mlmodel?raw=true",
         "float32_version": "1"
     },
 
