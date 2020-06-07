@@ -30,6 +30,55 @@
         "int8_downloadURL": "https://docs-assets.developer.apple.com/coreml/models/Image/ImageClassification/MobileNetV2/MobileNetV2Int8LUT.mlmodel",
         "int8_version": "1"
     },
+    "Mobilenetv1": {
+        "modelName": "Mobilenetv1",
+        "family": "Mobilenet",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "16.3",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV1.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "Mobilenet_V3_large": {
+        "modelName": "Mobilenet_V3_large",
+        "family": "MobilenetV3",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "22",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_large.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "Mobilenet_V3_large_minimal": {
+    "modelName": "Mobilenet_V3_large_minimal",
+    "family": "MobilenetV3",
+    "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
+    "task": "classification",
+    "float32_size": "15",
+    "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_large_min.mlmodel?raw=true",
+    "float32_version": "1"
+    },
+
+    "Mobilenet_V3_small": {
+    "modelName": "Mobilenet_V3_small",
+    "family": "MobilenetV3",
+    "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
+    "task": "classification",
+    "float32_size": "10",
+    "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_small.mlmodel?raw=true",
+    "float32_version": "1"
+    },
+
+    "Mobilenet_V3_small_minimal": {
+    "modelName": "Mobilenet_V3_small_minimal",
+    "family": "MobilenetV3",
+    "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
+    "task": "classification",
+    "float32_size": "8",
+    "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_small_min.mlmodel?raw=true",
+    "float32_version": "1"
+    },
 
     "Resnet50": {
         "modelName": "Resnet50",
