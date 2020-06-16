@@ -30,6 +30,87 @@
         "int8_downloadURL": "https://docs-assets.developer.apple.com/coreml/models/Image/ImageClassification/MobileNetV2/MobileNetV2Int8LUT.mlmodel",
         "int8_version": "1"
     },
+
+    "EffLite-B0": {
+        "modelName": "EffLite-B0",
+        "family": "EfficientNet-Lite",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "18.8 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/efflite_b0.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "EffLite-B1": {
+        "modelName": "EffLite-B1",
+        "family": "EfficientNet-Lite",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "22 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/efflite_b1.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "EffLite-B2": {
+        "modelName": "EffLite-B2",
+        "family": "EfficientNet-Lite",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "24.7 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/efflite_b2.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "EffLite-B3": {
+        "modelName": "EffLite-B3",
+        "family": "EfficientNet-Lite",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "33.2 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/efflite_b3.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "EffLite-B4": {
+        "modelName": "EffLite-B4",
+        "family": "EfficientNet-Lite",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "52.6 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/efflite_b4.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "Eff-EdgeSmall": {
+        "modelName": "Eff-EdgeSmall",
+        "family": "EfficientNet-EdgeTPU",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "21.9 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/eff_edgetpu_small.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "Eff-EdgeMedium": {
+        "modelName": "Eff-EdgeMedium",
+        "family": "EfficientNet-EdgeTPU",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "27.7 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/eff_edgetpu_medium.mlmodel?raw=true",
+        "float32_version": "1"
+    }, 
+
+    "Eff-EdgeLarge": {
+        "modelName": "Eff-EdgeLarge",
+        "family": "EfficientNet-EdgeTPU",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "42.5 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/eff_edgetpu_large.mlmodel?raw=true",
+        "float32_version": "1"
+    },  
+
     "Mobilenetv1": {
         "modelName": "Mobilenetv1",
         "family": "Mobilenet",
@@ -51,33 +132,33 @@
     },
 
     "Mobilenet_V3_large_minimal": {
-    "modelName": "Mobilenet_V3_large_minimal",
-    "family": "MobilenetV3",
-    "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
-    "task": "classification",
-    "float32_size": "15 MB",
-    "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_large_min.mlmodel?raw=true",
-    "float32_version": "1"
+        "modelName": "Mobilenet_V3_large_minimal",
+        "family": "MobilenetV3",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "15 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_large_min.mlmodel?raw=true",
+        "float32_version": "1"
     },
 
     "Mobilenet_V3_small": {
-    "modelName": "Mobilenet_V3_small",
-    "family": "MobilenetV3",
-    "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
-    "task": "classification",
-    "float32_size": "10 MB",
-    "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_small.mlmodel?raw=true",
-    "float32_version": "1"
+        "modelName": "Mobilenet_V3_small",
+        "family": "MobilenetV3",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "10 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_small.mlmodel?raw=true",
+        "float32_version": "1"
     },
 
     "Mobilenet_V3_small_minimal": {
-    "modelName": "Mobilenet_V3_small_minimal",
-    "family": "MobilenetV3",
-    "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
-    "task": "classification",
-    "float32_size": "8 MB",
-    "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_small_min.mlmodel?raw=true",
-    "float32_version": "1"
+        "modelName": "Mobilenet_V3_small_minimal",
+        "family": "MobilenetV3",
+        "description": "Detects the dominant objects present in an image from a set of 1001 categories such as trees, animals, food, vehicles, person etc. The top-1 accuracy from the original publication is 74.7%. Please see https://github.com/tensorflow/tensorflow for license information, and https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet for the original source of the model.",
+        "task": "classification",
+        "float32_size": "8 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/mobilenetV3_small_min.mlmodel?raw=true",
+        "float32_version": "1"
     },
 
     "Resnet50": {
