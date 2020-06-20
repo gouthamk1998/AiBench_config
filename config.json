@@ -235,7 +235,7 @@
         "description": "Blazeface implemented by google for real time face detection in mobiles. See https://github.com/google/mediapipe for license",
         "task": "detection",
         "float32_size": "450 KB",
-        "float32_downloadURL": "hhttps://github.com/gouthamk1998/coremlmodels/blob/master/blazeface_pipeline.mlmodel?raw=true",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/blazeface_pipeline.mlmodel?raw=true",
         "float32_version": "1"
     },
 
