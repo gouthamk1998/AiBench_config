@@ -259,6 +259,36 @@
         "float32_version": "1"
     },
 
+    "EfficientDet-D0": {
+        "modelName": "EfficientDet-D0",
+        "family": "Object Detection",
+        "description": "Anchor based object detection model based on efficientnet backbone see https://github.com/google/automl/tree/master/efficientdet for license and details",
+        "task": "detection",
+        "float32_size": "17.9 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/efficientdet_0.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "EfficientDet-D1": {
+        "modelName": "EfficientDet-D1",
+        "family": "Object Detection",
+        "description": "Anchor based object detection model based on efficientnet backbone see https://github.com/google/automl/tree/master/efficientdet for license and details",
+        "task": "detection",
+        "float32_size": "30.1 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/efficientdet_1.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
+    "EfficientDet-D2": {
+        "modelName": "EfficientDet-D2",
+        "family": "Object Detection",
+        "description": "Anchor based object detection model based on efficientnet backbone see https://github.com/google/automl/tree/master/efficientdet for license and details",
+        "task": "detection",
+        "float32_size": "37.4 MB",
+        "float32_downloadURL": "https://github.com/gouthamk1998/coremlmodels/blob/master/efficientdet_2.mlmodel?raw=true",
+        "float32_version": "1"
+    },
+
     "PoseNet": {
         "modelName": "PoseNet",
         "family": "Pose estimation",
